@@ -1,0 +1,17 @@
+{
+  "name": "03-simuladordecorridasmariokart",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Projeto do simulador de corrias de Mario Kart - Back end com Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lógica de programaçaõ",
+    "bootcamp Dio",
+    "prática"
+  ],
+  "author": "Lorran Nazareth",
+  "license": "ISC"
+}
