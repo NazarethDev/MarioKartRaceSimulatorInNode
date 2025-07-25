@@ -37,7 +37,7 @@ Além dos requisitos exigidos, novas funcionalidades foram adicionadas, entre el
 
 - Menu de seleção dos personagens: Como a seleção de personagens pelo usuário foi disponibilizada, fez-se necessário a impressão dos nomes dos usuários e seus atributos.
 
-- Refatoração de objetos: os personagens foram refatorados no códido para dentro da array `players`. Desta maneira, se tornou mais simples a adição de novos personagens ao código no futuro, além da utilidade na apresentação e seleção dos personagens para a seleção dos usuários. 
+- Refatoração de objetos: os personagens foram refatorados no código para dentro da array `players`. Desta maneira, se tornou mais simples a adição de novos personagens ao código no futuro, além da utilidade na apresentação e seleção dos personagens para a seleção dos usuários. 
 
 - Mais logs por rodada: logs que apresentam os empates nas corridas foram aplicados a todos os tipos de pistas, além de correção para os logs de vitória nas pistas do tipo 'confronto'. 
 
