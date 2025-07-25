@@ -37,13 +37,67 @@ Além dos requisitos exigidos, novas funcionalidades foram adicionadas, entre el
 
 - Menu de seleção dos personagens: Como a seleção de personagens pelo usuário foi disponibilizada, fez-se necessário a impressão dos nomes dos usuários e seus atributos.
 
-- Refatoração de objetos: os personagens foram refatorados no códido para dentro da array players. Desta maneira, se tornou mais simples a adição de novos personagens ao código no futuro, além da utilidade na apresentação e seleção dos personagens para a seleção dos usuários. 
+- Refatoração de objetos: os personagens foram refatorados no códido para dentro da array `players`. Desta maneira, se tornou mais simples a adição de novos personagens ao código no futuro, além da utilidade na apresentação e seleção dos personagens para a seleção dos usuários. 
 
 - Mais logs por rodada: logs que apresentam os empates nas corridas foram aplicados a todos os tipos de pistas, além de correção para os logs de vitória nas pistas do tipo 'confronto'. 
 
 ### Contato do desenvolvedor
 
 Sinta-se a vontade para entrar em contrato comigo sobre esse projeto, oportunidades de desenvolvimento ou outros assuntos! 
+
+LinkedIn: https://www.linkedin.com/in/lorrannazareth/
+
+Email: lorran.nazareth@gmail.com
+
+
+-----
+
+# Mario Kart Race Simulator
+
+Project developed during the Mobile Developer Bootcamp with Dio!
+
+Developed entirely in JavaScript using Node!
+
+## How to Run
+This project was built using JavaScript; however, some features are only available via the terminal, as the project contains imports that may not be compatible with browser consoles.
+
+With this in mind, download the project to your device with JavaScript installed, as well as the NPM package manager.
+
+Once these prerequisites are met, it's important to emphasize again that the program must be run in the terminal, as IDEs—such as Visual Studio Code, which uses the "Run Code" extension—do not support user input via console output, which is necessary for the program to work.
+
+## Business Rules Implemented
+
+All business rules have been applied to this project. The following were requested and implemented:
+
+- The system receives two characters to compete in the race, each represented by an object;
+
+- The game consists of 5 distinct, randomized rounds;
+
+- 3 track types: straight, curved, and duel:
+
+    - Straight: Each player rolls a 6-sided die. The result is then added to their character's speed attribute. The player with the highest final speed earns one point;
+
+    - Curved: Each player rolls a 6-sided die. The result is then added to their character's maneuverability attribute. The player with the highest final maneuverability earns one point;
+
+    - Duel: Each player rolls a 6-sided die. The result is then added to their character's power attribute. The player with the lowest final power loses one point.
+
+- Win condition implemented: The winner is determined by the total number of points. The player with the most points at the end of the 5 rounds wins the game.
+
+## Additions and Changes Made to the Proposed Project
+
+In addition to the required features, new functionality has been added, including:
+
+- Character Selection: Race participants can be selected via the terminal, increasing the project's interactivity with the user;
+
+- Character Selection Menu: Since user-selectable characters are now available, the names and attributes of all characters are displayed to the user;
+
+- Object Refactoring: Characters have been refactored into an array called `players`. This makes it easier to add new characters in the future and helps with displaying and selecting them;
+
+- More Round Logs: Logs showing draws during races have been implemented for all track types, and the win log on duel tracks has been fixed.
+
+### Developer Contact
+
+Feel free to contact me about this project, development opportunities, or anything else!
 
 LinkedIn: https://www.linkedin.com/in/lorrannazareth/
 
